@@ -5,6 +5,9 @@ eureka:
 
 
 spring:
+  application:
+    name: question-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/questiondb
     username: root
